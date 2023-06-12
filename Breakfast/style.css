@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: aachen;
+    src: url(./Aachen-Std-Medium.otf);
+}
+*{
+    font-family: aachen;
+}
+.header{
+        background: url(./images/headerBackground.png) center/cover no-repeat;
+}
+.transparent{
+    background-color: rgba(24, 24, 24, 0.918);
+}
+.bg-black{
+    background-color: #17171e;
+}
+.hover>li{
+    cursor: pointer;
+}
+.hover>li:hover{
+    color: #fe9000;
+}
+.quality{
+    margin-top: 400px;
+    font-weight: 800;
+}
+.sec-4{
+    padding-top: 200px;
+}
+.bold{
+    font-weight: 700;
+}
+.sec-5{
+    background: url(./images/foodGallery/enjoy_food.png) center/cover;
+    height: 960px;
+    padding-top: 200px; 
+}
+.sec-7{
+    height: 400px;
+}
